@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:17:1
+	package
+		ADDED from AndroidManifest.xml:18:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:20:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:19:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:17:11
+uses-sdk
+ADDED from AndroidManifest.xml:22:5
+MERGED from com.android.support:multidex:1.0.1:18:5
+MERGED from Routie_app.libs:AndTinder:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:design:22.2.0:20:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.facebook.android:facebook-android-sdk-4.0.1:4.0.1:24:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from Routie_app:ParseLoginUI:unspecified:25:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.facebook.android:facebook-android-sdk-4.0.1:4.0.1:24:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from net.i2p.android.ext:floatingactionbutton:1.10.0:8:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.google.android.gms:play-services-location:7.8.0:18:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:27:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:22:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:24:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:21:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:25:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:20:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:26:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:22:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+application
+ADDED from AndroidManifest.xml:37:5
+MERGED from Routie_app.libs:AndTinder:unspecified:11:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:design:22.2.0:22:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.facebook.android:facebook-android-sdk-4.0.1:4.0.1:28:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from Routie_app:ParseLoginUI:unspecified:29:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.facebook.android:facebook-android-sdk-4.0.1:4.0.1:28:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from net.i2p.android.ext:floatingactionbutton:1.10.0:12:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.google.android.gms:play-services-location:7.8.0:19:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:28:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:40:9
+	xmlns:tools
+		ADDED from AndroidManifest.xml:38:9
+	android:icon
+		ADDED from AndroidManifest.xml:39:9
+		REJECTED from Routie_app.libs:AndTinder:unspecified:12:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:42:9
+	android:theme
+		ADDED from AndroidManifest.xml:41:9
+	tools:replace
+		ADDED from AndroidManifest.xml:43:9
+activity#com.example.android.effectivenavigation.TinderUI
+ADDED from AndroidManifest.xml:44:9
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:48:9
+	android:value
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+activity#com.facebook.FacebookActivity
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:54:13
+	android:theme
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+provider#com.facebook.FacebookContentProvider
+ADDED from AndroidManifest.xml:58:9
+	android:authorities
+		ADDED from AndroidManifest.xml:60:13
+	android:exported
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:59:13
+meta-data#com.google.android.geo.API_KEY
+ADDED from AndroidManifest.xml:63:9
+	android:value
+		ADDED from AndroidManifest.xml:65:13
+	android:name
+		ADDED from AndroidManifest.xml:64:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:66:9
+MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
+MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
+MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
+	android:value
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.example.android.effectivenavigation.Tabs_List_Map
+ADDED from AndroidManifest.xml:70:9
+	android:label
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#com.example.android.effectivenavigation.MapActivity
+ADDED from AndroidManifest.xml:74:9
+	android:label
+		ADDED from AndroidManifest.xml:76:13
+	android:name
+		ADDED from AndroidManifest.xml:75:13
+activity#com.example.android.effectivenavigation.LocTest
+ADDED from AndroidManifest.xml:78:9
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#com.example.android.effectivenavigation.MapActivity1
+ADDED from AndroidManifest.xml:82:9
+	android:label
+		ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:83:13
+activity#com.example.android.effectivenavigation.Main2Activity
+ADDED from AndroidManifest.xml:86:9
+	android:label
+		ADDED from AndroidManifest.xml:88:13
+	android:icon
+		ADDED from AndroidManifest.xml:89:13
+	android:theme
+		ADDED from AndroidManifest.xml:90:13
+	tools:replace
+		ADDED from AndroidManifest.xml:91:13
+	android:name
+		ADDED from AndroidManifest.xml:87:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:93:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:94:17
+	android:name
+		ADDED from AndroidManifest.xml:94:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:96:17
+	android:name
+		ADDED from AndroidManifest.xml:96:27
+activity#com.example.android.effectivenavigation.Tab_List_2
+ADDED from AndroidManifest.xml:99:9
+	android:label
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+activity#com.parse.ui.ParseLoginActivity
+ADDED from AndroidManifest.xml:103:9
+	android:label
+		ADDED from AndroidManifest.xml:105:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+meta-data#com.parse.ui.ParseLoginActivity.PARSE_LOGIN_ENABLED
+ADDED from AndroidManifest.xml:108:13
+	android:value
+		ADDED from AndroidManifest.xml:110:17
+	android:name
+		ADDED from AndroidManifest.xml:109:17
+meta-data#com.parse.ui.ParseLoginActivity.PARSE_LOGIN_EMAIL_AS_USERNAME
+ADDED from AndroidManifest.xml:111:13
+	android:value
+		ADDED from AndroidManifest.xml:113:17
+	android:name
+		ADDED from AndroidManifest.xml:112:17
+meta-data#com.parse.ui.ParseLoginActivity.FACEBOOK_LOGIN_ENABLED
+ADDED from AndroidManifest.xml:114:13
+	android:value
+		ADDED from AndroidManifest.xml:116:17
+	android:name
+		ADDED from AndroidManifest.xml:115:17
+meta-data#com.parse.ui.ParseLoginActivity.FACEBOOK_LOGIN_PERMISSIONS
+ADDED from AndroidManifest.xml:117:13
+	android:resource
+		ADDED from AndroidManifest.xml:119:17
+	android:name
+		ADDED from AndroidManifest.xml:118:17
+meta-data#com.parse.ui.ParseLoginActivity.TWITTER_LOGIN_ENABLED
+ADDED from AndroidManifest.xml:120:13
+	android:value
+		ADDED from AndroidManifest.xml:122:17
+	android:name
+		ADDED from AndroidManifest.xml:121:17
+uses-feature#0x00020000
+ADDED from com.google.android.gms:play-services-maps:7.8.0:23:5
+MERGED from com.google.android.gms:play-services-maps:7.8.0:23:5
+	android:glEsVersion
+		ADDED from com.google.android.gms:play-services-maps:7.8.0:24:8
+	android:required
+		ADDED from com.google.android.gms:play-services-maps:7.8.0:25:8

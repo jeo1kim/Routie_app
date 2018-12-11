@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_switcher2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/routieback2"
+    android:orientation="vertical"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp">
+
+    <!-- first view-->
+
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="@color/dark">
+
+        <RelativeLayout
+            android:id="@+id/card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp">
+
+            <ImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/profile_picture"
+                android:layout_toEndOf="@+id/profile_picture"
+                android:layout_toRightOf="@+id/profile_picture"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:singleLine="false"
+                android:text="NoName"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/username"
+                android:layout_alignStart="@+id/username"
+                android:layout_below="@+id/username"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:singleLine="false"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/usertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/username"
+                android:layout_alignStart="@+id/username"
+                android:layout_below="@+id/username"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:singleLine="false"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/userpoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/usertitle"
+                android:layout_alignStart="@+id/usertitle"
+                android:layout_below="@+id/usertitle"
+                android:maxLines="3"
+                android:padding="5dp"
+                android:singleLine="false"
+                android:text="" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/card"
+            android:background="@color/grey_light"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/routiestats"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttoncorner"
+                android:padding="8dp"
+                android:text="Routie Stats"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/mylist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttoncorner"
+                android:padding="8dp"
+                android:text="My Lists"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/statsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/buttonLayout"
+            android:background="#FFFFFF"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/countriesStat"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="150dp"
+                android:text="5 Countires Visited! 13 Cities Visited! 53 Places Visited!" />
+
+            <TextView
+                android:id="@+id/citiesStat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100dp"
+                android:text="12 Cities Visited!" />
+
+            <TextView
+                android:id="@+id/placesStat"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="150dp"
+                android:text="53 Places Visited!" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <!--========================second view========================-->
+
+    <LinearLayout
+        android:id="@+id/vsL2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/grey_light">
+
+        <RelativeLayout
+            android:id="@+id/frame2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@color/dark">
+
+            <RelativeLayout
+                android:id="@+id/card2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/profile_picture2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/username2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/profile_picture2"
+                    android:layout_toEndOf="@+id/profile_picture2"
+                    android:layout_toRightOf="@+id/profile_picture2"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:singleLine="false"
+                    android:text="NoName"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/userid2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/username2"
+                    android:layout_alignStart="@+id/username2"
+                    android:layout_below="@+id/username2"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:singleLine="false"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/usertitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/username2"
+                    android:layout_alignStart="@+id/username2"
+                    android:layout_below="@+id/username2"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:singleLine="false"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/userpoints2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/usertitle2"
+                    android:layout_alignStart="@+id/usertitle2"
+                    android:layout_below="@+id/usertitle2"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:singleLine="false"
+                    android:text="" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/card2"
+                android:background="@color/grey_light"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/routiestats2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/dark"
+                    android:padding="8dp"
+                    android:text="Routie Stats"
+                    android:textColor="#ffffffff" />
+
+                <Button
+                    android:id="@+id/mylist2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/dark"
+                    android:padding="8dp"
+                    android:text="My Lists"
+                    android:textColor="#ffffffff" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ViewSwitcher><!-- From: file:/Users/euiwonkim/Downloads/Routie_app/app/src/main/res/layout/profile_view_switcher.xml -->

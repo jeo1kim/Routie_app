@@ -1,0 +1,21 @@
+apply plugin: 'android-library'
+
+dependencies {
+    compile 'com.parse.bolts:bolts-android:1.2.0'
+    compile 'com.android.support:support-v4:22.0.0'
+    compile project(':facebook-android-sdk-4.0.1')
+    compile files('libs/Parse-1.10.1.jar')
+    compile files('libs/ParseFacebookUtilsV4-1.10.1.jar')
+    compile files('libs/ParseFacebookUtilsV4-1.10.0.jar')
+    compile files('libs/ParseTwitterUtils-1.10.0.jar')
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
+}

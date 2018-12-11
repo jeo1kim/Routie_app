@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_switcher2"
+    android:background="@drawable/routieback2"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp">
+
+
+
+
+    <!-- first view-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/vsL1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:id="@+id/frame">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/card"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_alignParentTop="true">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/profile_picture"
+                    android:layout_margin="8dp"
+                    android:padding="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="NoName"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/username"
+                    android:padding="8dp"
+                    android:layout_alignTop="@+id/profile_picture"
+                    android:layout_toRightOf="@+id/profile_picture"
+                    android:layout_toEndOf="@+id/profile_picture"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/userid"
+                    android:padding="5dp"
+                    android:layout_below="@+id/username"
+                    android:layout_alignLeft="@+id/username"
+                    android:layout_alignStart="@+id/username" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Countries | Cities | Places"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/countriesStat"
+                    android:padding="1dp"
+                    android:layout_below="@+id/username"
+                    android:layout_alignLeft="@+id/username"
+                    android:layout_alignStart="@+id/username"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          5          13         52"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/countriesNumbers"
+                    android:padding="1dp"
+                    android:layout_below="@+id/countriesStat"
+                    android:layout_alignLeft="@+id/countriesStat"
+                    android:layout_alignStart="@+id/countriesStat"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLayout"
+                android:layout_below="@+id/card"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Feed"
+                    android:id="@+id/routiestats"
+                    android:padding="8dp"
+                    android:background="@drawable/buttoncorner"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:textColor="#ffffffff"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Friends"
+                    android:id="@+id/mylist"
+                    android:padding="8dp"
+                    android:background="@drawable/buttoncorner"
+                    android:layout_weight="1"
+                    android:textColor="#ffffffff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/feedLayout"
+                android:layout_below="@+id/buttonLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                >
+
+                <ListView
+                    android:id="@+id/feedList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:background="#ffffff">
+                </ListView>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Switch"
+            android:id="@+id/switch1"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+
+    <!--========================second view========================-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/vsL2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:id="@+id/frame2"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/card2"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_alignParentTop="true">
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/profile_picture2"
+                    android:layout_margin="8dp"
+                    android:padding="2dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="NoName"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/username2"
+                    android:padding="8dp"
+                    android:layout_alignTop="@+id/profile_picture2"
+                    android:layout_toRightOf="@+id/profile_picture2"
+                    android:layout_toEndOf="@+id/profile_picture2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/userid2"
+                    android:padding="8dp"
+                    android:layout_below="@+id/username2"
+                    android:layout_alignLeft="@+id/username2"
+                    android:layout_alignStart="@+id/username2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Countries | Cities | Places"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/countriesStat2"
+                    android:padding="1dp"
+                    android:layout_below="@+id/username2"
+                    android:layout_alignLeft="@+id/username2"
+                    android:layout_alignStart="@+id/username2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          5          13         52"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:id="@+id/countriesNumbers2"
+                    android:padding="1dp"
+                    android:layout_below="@+id/countriesStat2"
+                    android:layout_alignLeft="@+id/countriesStat2"
+                    android:layout_alignStart="@+id/countriesStat2"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLayout2"
+                android:layout_below="@+id/card2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Feed"
+                    android:id="@+id/routiestats2"
+                    android:padding="8dp"
+                    android:background="@drawable/buttoncorner"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:textColor="#ffffffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Friends"
+                    android:id="@+id/mylist2"
+                    android:padding="8dp"
+                    android:background="@drawable/buttoncorner"
+                    android:layout_weight="1"
+                    android:textColor="#ffffffff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/friendLayout"
+                android:layout_below="@+id/buttonLayout2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                >
+
+                <ListView
+                    android:id="@+id/friendList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:background="#ffffff"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true">
+
+                </ListView>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ViewSwitcher>

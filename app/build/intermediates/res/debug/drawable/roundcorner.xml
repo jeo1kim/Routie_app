@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:startColor="#c0ffffff"
+        android:endColor="#c0ffffff"
+        android:angle="270"
+    />
+    <corners
+        android:bottomLeftRadius="7dp"
+        android:bottomRightRadius="7dp"
+        />
+
+
+</shape><!-- From: file:/Users/euiwonkim/Downloads/Routie_app/app/src/main/res/drawable/roundcorner.xml -->

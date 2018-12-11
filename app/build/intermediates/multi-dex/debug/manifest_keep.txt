@@ -1,0 +1,20 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.example.android.effectivenavigation.TinderUI { <init>(); }
+-keep class com.facebook.FacebookActivity { <init>(); }
+-keep class com.facebook.FacebookContentProvider { <init>(); }
+-keep class com.example.android.effectivenavigation.Tabs_List_Map { <init>(); }
+-keep class com.example.android.effectivenavigation.MapActivity { <init>(); }
+-keep class com.example.android.effectivenavigation.LocTest { <init>(); }
+-keep class com.example.android.effectivenavigation.MapActivity1 { <init>(); }
+-keep class com.example.android.effectivenavigation.Main2Activity { <init>(); }
+-keep class com.example.android.effectivenavigation.Tab_List_2 { <init>(); }
+-keep class com.parse.ui.ParseLoginActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

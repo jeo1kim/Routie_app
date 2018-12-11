@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Routie</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="second_view_text"> I am the second activity</string>
+    <string name="button_title">Go to Second Activity</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="back_button">Go Back!</string>
+
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+
+    <string name="imgdesc">imgdesc</string>
+
+
+    <string name="hnt_lat">Enter Latitude</string>
+    <string name="hnt_lng">Enter Longitude</string>
+    <string name="str_btn_show">Show Location in Map</string>
+
+    <string name="str_atv_places">Enter Place Here</string>
+
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+
+    <string-array name="titles">
+        <item>Home</item>
+        <item>Tutorials</item>
+        <item>My Apps</item>
+        <item>OS Versions</item>
+        <item>Tools</item>
+        <item>About Us</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/japan</item>
+
+    </array>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_activity_action_bar_sherlock">ActionBarSherlockActivity</string>
+    <string name="title_activity_map_list_views">MapListViews</string>
+    <string name="title_activity_map_demo">MapDemoActivity</string>
+    <string name="title_activity_auto">AutoActivity</string>
+    <string name="title_activity_gmaps_example">GMapsExample</string>
+    <string name="title_activity_maps1">MapsActivity1</string>
+    <string name="title_activity_auto2">AutoActivity2</string>
+    <string name="title_activity_map_">Map_Activity</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_auto_complete">AutoComplete</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_tabs__list__map">Tabs_List_Map</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_loc_test">LocTest</string>
+    <string name="title_activity_map1">MapActivity1</string>
+    <string name="title_activity_tab__list_2">Tab_List_2</string>
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">Your are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+    <string name="profile_title_logged_out">You must be logged in to view your profile</string>
+    <string name="profile_login_button_label">Log in</string>
+    <string name="parse_app_id">X4iu1n6v5Q6lQ9chqMknBPBSt5vV3MG9PNsCwMmz</string>
+    <string name="parse_client_key">L23zoOIw2PmokXQDldg4L74Fa7UWuZxxIKTE8mQV</string>
+    <string name="facebook_app_id">503569656457101</string>
+    <string name="twitter_consumer_key">Fxn5JFWHMh8i9MsydCxNxFO2V</string>
+    <string name="twitter_consumer_secret">dsIaAKXG12fqXsP9nIvmMp0xfIDnll1ZrHvK2lFhGzC1HbWlQ3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="my_facebook_permissions">
+        <item>public_profile</item>
+        <item>user_friends</item>
+    </string-array>
+
+
+
+</resources>

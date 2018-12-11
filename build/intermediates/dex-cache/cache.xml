@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-5f85c17945effe85b258115462012051fe424c0e.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-4818a9cfdb012f9f56e03921c1ef5cbc9cfc74a5.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/ParseTwitterUtils-1.10.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5336b15186de874d314134e9ea6082da3dde4a1e">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/ParseTwitterUtils-1.10.0-ced840b74b0118051469279b0897ce9f0f78dd20.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-0afa638601ace9b4fa63d8e7dbbdbc74ecfb2186.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-d98de56a9974d1f46ffe4be50e7344e537dd1c4e.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/adt-bundle-mac-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3b39dffdc0edb9381603990ce205861c3914da0d.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-c992185b86829f12291b0c5404eb3287067e4f7d.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-8239a2e5161a78a53e8a4496b8297a098dab2f44.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/Routie_app/ParseLoginUI/unspecified/jars/libs/ParseFacebookUtilsV4-1.10.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0b531ff97a4b71df96a4d794c657703b2a347d7c">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.10.0-622b53959eddeb88448306428e7464403bdf4634.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-329d64353fed1547e36ca5e70f1eaf4ca028fce1.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-29e446db6d3078d95b785910c1135f1d2e9f7404.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/commons-codec-1.9-15daa7091d15a385f2b80dacff4c548493f4daa7.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-8922f1e3739d44e2ad6e2ae35c9845ffc3653362.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-9996f7c14bb8b389b05834d0ec1d8ffbb450f7d3.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-0efd1d72b7f1cf588d2f935ab86bf03cae9925c7.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-b30f0f352dea69af4530c61fbe4c84d7bf166dda.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-037418ac12bb6cb60f8afab1f5af0797e2862aa5.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.12.4/87cff683a77d5cfc7b1af009f0b7df720248755a/lombok-1.12.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87cff683a77d5cfc7b1af009f0b7df720248755a">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/lombok-1.12.4-736c1a79a4c6b765276c6053ccfe8619bfb9ac5a.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-516856939a05bdb217a232647cd6c3e872e923af.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-bc2a2433085b9ee102d2e804c3711698b1d4861d.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-63da6e2e9d740ed2f816dda61db1e66cec57f77d.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-3a3f264aaab81e4e5de2b58f90da419c560f2bdb.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/scribe-1.3.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3b3deded9d241d9f2c8aa9c9bcd90ad29e2581e">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/scribe-1.3.5-fd3db66d58d05df1945b977a8512c91b2f862a67.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-b03710deb4131b720546522779bc00afb5866acc.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/json_simple-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/json_simple-1.1-0edc3e7c1b9709320c3edac39c4267f9b73c57b5.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-6231fbafbd780885d63b507aacf5c91c720c3455.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-49d8793523a30083c5bbc0894d87d7b06bfb8450.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-caaec1511a8e7d0d03d89e1ae292bb4090e864e4.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/net.i2p.android.ext/floatingactionbutton/1.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4eff90a2da3e42cbea5706a72aae2aa9b12f55b3">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-4bd32bf902b8d5f1b2341a78042969d237a4f781.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/Routie_app.libs/AndTinder/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5691060fdb09f6e813c2137ce86da5419e3313fe">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-8546b58ea9f19cbbb638ae7e34c89726d1cd841b.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/Routie_app/ParseLoginUI/unspecified/jars/libs/Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/Parse-1.10.1-072d73dcf0dff460227ece924c92d25f88275490.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-241d62e79a0210394b696b0c9f33dc88f496b22a.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-8d51a7e94509888f26e2c5d2db6b520180ed10f2.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-ce9bbc8bcb02a7f0b4e4dad1f68cbadf30426fe2.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/library-2.4.0-bd9627069aa550c4f6d9735ccfdad949c4695bde.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-629498c829e790c25381149938881f10425e1792.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-4e572957a2b082048e9315d53b7554823e2aa839.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/gson-2.2.4-4d501fe91a839d19c2de87e8bfe1c664949a20ad.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-e712763e09fa0f3489c3da0b715be765cac05d63.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-aa00ad71091e0ad08057aae445c2313131d91281.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-2d1fe3b36579a65e9f6346fd2b903cb0355308ca.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/Routie_app/ParseLoginUI/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5c505d394c04a1c4ba5c05967e173a39a1f8dc85">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-acca9aeb1950dd3a5a32c1739f63cfffcb5c9360.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/libs/jcommander-1.35.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47592e181b0bdbbeb63029e08c5e74f6803c4edd">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/jcommander-1.35-7859bbe1fc3b0621c437f1e741262eb5dde21aa9.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk-4.0.1/4.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2d0b581f6a46b06cb4b32095e9f8084c358c4086">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-c586fea573a79008092ed2cf6ee83e5dfb8860f4.jar" />
+    </item>
+    <item
+        jar="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/euiwonkim/Downloads/Routie_app/app/build/intermediates/pre-dexed/debug/classes-50d9081d0e57ed302ca38fc2009ff5ffed10d915.jar" />
+    </item>
+
+</items>

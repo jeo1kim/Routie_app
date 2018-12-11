@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/imglist"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:id="@+id/namelist"
+            android:padding="5dp"
+            android:layout_alignTop="@+id/imglist"
+            android:layout_toRightOf="@+id/imglist"
+            android:layout_toEndOf="@+id/imglist"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:id="@+id/feedText"
+            android:padding="1dp"
+            android:layout_alignTop="@+id/imglist"
+            android:layout_toRightOf="@+id/imglist"
+            android:layout_toEndOf="@+id/imglist"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

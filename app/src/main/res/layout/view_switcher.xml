@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/view_switcher">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/search_layout">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:hint=" Where to?"
+            android:background="@drawable/searchcorner"
+            android:backgroundTint="#ffffffff"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:id="@+id/sv_linear">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageButton"
+                    android:layout_weight="0.20"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/paris"
+                    android:text="Paris"
+                    android:textStyle="bold"
+                    android:textSize="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_weight="0.20"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/dubai"
+                    android:text="Dubai"
+                    android:textSize="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/imageButton3"
+                    android:layout_weight="0.20"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/yellostone"
+                    android:text="Yellow Stone"
+                    android:textStyle="bold"
+                    android:textSize="44dp"
+                    android:layout_marginBottom="1dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/bingImage"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/desText"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button android:id="@+id/tinderButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="tinder Button"/>
+
+    </LinearLayout>
+</ViewSwitcher>

@@ -1,0 +1,2 @@
+include ':app', ':facebook-android-sdk-4.0.1', ':ParseLoginUI'
+include ':libs:AndTinder'

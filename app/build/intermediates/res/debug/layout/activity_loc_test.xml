@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocTest" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="385dp"
+        android:layout_height="530dp" android:id="@+id/map" tools:context=".Map_Activity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/map_activity_layout" />
+
+</RelativeLayout>
+<!-- From: file:/Users/euiwonkim/Downloads/Routie_app/app/src/main/res/layout/activity_loc_test.xml -->
